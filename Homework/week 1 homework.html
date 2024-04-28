@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 1 Homework</title>
+    <style>
+      h1 {
+        color: rgb(26, 100, 214);
+        text-align: center;
+        font-size: 34px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+      }
+      h2 {
+        text-align: center;
+        font-size: 34px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 10px 0px;
+      }
+      button {
+        display: block;
+        margin: 0px auto;
+      }
+      .days-block {
+        border-radius: 10px;
+        padding: 20px 30px;
+        display: block;
+        margin: 0px auto;
+        width: 400px;
+        background: transparent;
+        transition: all 150ms ease-in-out;
+        border: transparent;
+      }
+      .days-block:hover {
+        background: rgba(255, 252, 241, 0.719);
+      }
+      .line-one {
+        margin: 30px 0px;
+      }
+      .days-emoji {
+        font-size: 20px;
+      }
+      .days-text {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 18.72px;
+      }
+      .days-temp {
+        font-family: monospace;
+        font-size: 18px;
+        margin: 20px 0px 0px 0px;
+        color: rgb(92, 92, 92);
+      }
+
+      .top-emoji {
+        text-align: center;
+        font-size: 40px;
+      }
+      .change-city {
+        color: white;
+        background: #1a64d6;
+        transition: all 150ms ease-in-out;
+        padding: 16px 24px;
+        border-radius: 30px;
+        border-color: transparent;
+        font-size: 16px;
+        box-shadow: 0px 5px 8px rgba(153, 153, 153, 0.274);
+        margin: 20px auto 10px auto;
+      }
+      .change-city:hover {
+        color: #1a64d6;
+        background: white;
+        border-color: #1a64d6;
+      }
+      .coded-by {
+        text-align: center;
+        font-family: monospace;
+        font-size: 18px;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top-emoji">⛅</div>
+    <h1>Currently 21° in Tokyo</h1>
+    <h2>13° / <strong>23°</strong></h2>
+    <button type="button" class="days-block">
+      <span class="line-one days-emoji">⛈️</span>
+      <span class="line-one days-text"> Tomorrow</span>
+      <div class="days-temp">10° / <strong>22°</strong></div>
+    </button>
+    <button type="button" class="days-block">
+      <span class="line-one days-emoji">⛅</span>
+      <span class="line-one days-text"> Saturday</span>
+      <div class="days-temp">15° / <strong>17°</strong></div>
+    </button>
+    <button type="button" class="days-block">
+      <span class="line-one days-emoji">☀️</span>
+      <span class="line-one days-text"> Sunday</span>
+      <div class="days-temp">25° / <strong>28°</strong></div>
+    </button>
+    <button type="button" class="change-city">Change city</button>
+    <div class="coded-by">Coded by Sylwia Sajdak</div>
+  </body>
+</html>
